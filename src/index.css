@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* This is a placeholder for the main CSS file.
+ * You can add your custom styles here or import other CSS files.
+ */
+
+ /* This is the custom border
+ */
+ .image-border{
+    border:10px solid transparent;
+    border-image:url("./assets/images/pattern.jpg") 30 round;
+    border-radius: 10px;
+ }
+
