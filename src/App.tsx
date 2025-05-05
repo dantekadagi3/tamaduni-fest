@@ -1,3 +1,6 @@
+
+import Banner from "./components/Banner"
+import About from "./Pages/About"
 import Home from "./Pages/Home"
 import Pricing from "./Pages/Pricing"
 
@@ -5,9 +8,11 @@ import Pricing from "./Pages/Pricing"
 const App = () => {
   return (
     <div>
-      <h1 className="font-bold text-3xl text-amber-300">This is tamaduni</h1>
+      
       <Home/>
+      <About/>
       <Pricing/>
+      <Banner/>
     </div>
   )
 }
