@@ -17,8 +17,8 @@ const About = () => {
   Image={man1}
   Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   /> <ArtistCard
-  Name="Artist 1"
-  Image="https://via.placeholder.com/150"
+  Name="Artist2"
+  Image={man1}
   Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   />
  </div>
